@@ -1,0 +1,80 @@
+/**
+* Author: snxx
+* For license and copyright information please follow this like:
+* https://github.com/snxx-lppxx/snxx-lppxx.github.io/blob/master/LICENSE
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html, body {
+	background-color: #fff;
+	color: #000;
+	font-family: sans-serif;
+}
+
+ul, li {
+	margin-left: 5px;
+	list-style: none;
+}
+
+header > .container {
+	background-color: #001;
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+}
+
+section {
+	background-color: #5be;
+	width: 100%;
+	height: 100%;
+}
+
+section > .container {
+	background-color: #234;
+	width: 1000px;
+	height: 500px;
+	border-radius: 8px;
+}
+
+section > .container > img {
+	border-radius: 8px;
+	width: 250px;
+	height: 250px;
+	margin-top: 50px;
+}
+
+footer > .container {
+	position: absolute;
+	background-color: #001;
+	bottom: 0;
+	width: 100%;
+}
+
+footer h2 {
+	color: #fee;
+}
+
+footer {
+	
+}
+
+a:link {
+	text-decoration: none;
+	color: #ade;
+}
+
+a:visited {
+	color: #83ADFC;
+}
+
+a:hover {
+	color: ;
+}
+
+a:active {
+
+}
