@@ -11,70 +11,44 @@
 }
 
 html, body {
-	background-color: #fff;
-	color: #000;
+	background-color: #1e1d1d;
+	color: #c9d1d9;
 	font-family: sans-serif;
 }
 
-ul, li {
-	margin-left: 5px;
-	list-style: none;
-}
-
-header > .container {
-	background-color: #001;
+main {
 	text-align: center;
-	padding: 5px 5px 5px 5px;
 }
 
-section {
-	background-color: #5be;
-	width: 100%;
-	height: 100%;
+p {
+	margin: 10px;
 }
 
-section > .container {
-	background-color: #234;
-	width: 1000px;
-	height: 500px;
-	border-radius: 8px;
-}
-
-section > .container > img {
-	border-radius: 8px;
-	width: 250px;
-	height: 250px;
-	margin-top: 50px;
-}
-
-footer > .container {
-	position: absolute;
-	background-color: #001;
-	bottom: 0;
-	width: 100%;
-}
-
-footer h2 {
-	color: #fee;
-}
-
-footer {
-	
+.avatar {
+	border-radius: 180px;
+	margin: 30px;
 }
 
 a:link {
 	text-decoration: none;
-	color: #ade;
+	color: #844;
+	margin: 5px;
 }
 
 a:visited {
-	color: #83ADFC;
+	color: #844;
 }
 
 a:hover {
-	color: ;
+	color: #844;
+	text-decoration: underline;
 }
 
 a:active {
+	color: #844;
+}
 
+.more > a {
+	margin: 20px;
+	text-decoration: none;
 }
