@@ -43,6 +43,14 @@ figure figcaption {
   margin: 7px 0;
 }
 
+ul, ol {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-flex;
+}
+
 a:link, a:visited, a:active {
   color: #84a6d7;
   text-decoration: none;
